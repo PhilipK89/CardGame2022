@@ -15,6 +15,20 @@ public class DeckManager : MonoBehaviour , IPointerClickHandler
 
 
     public void Update()
+     
+    public void Update()
+    {        
+        if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
+    }    
+    public void Update()
+    {        
+        if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
+    }    
+    public void Update()
+    {        
+        if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
+    }    
+    public void Update()
     {        
         if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
     }    
