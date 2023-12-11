@@ -12,11 +12,20 @@ public class DeckManager : MonoBehaviour , IPointerClickHandler
     public GameObject IPlayer;
     public Deck GameDeck;    
 
-    private void Awake()
-    {
-        GameDeck = new Deck();
-    }
 
+
+    public void Update()
+    {        
+        if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
+    }    
+    public void Update()
+    {        
+        if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
+    }    
+    public void Update()
+    {        
+        if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
+    }    
     public void Update()
     {        
         if (DeckSizeCounter != null) DeckSizeCounter.text = GameDeck.DeckSize.ToString();
